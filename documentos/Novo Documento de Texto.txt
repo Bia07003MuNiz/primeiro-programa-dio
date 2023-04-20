@@ -1,0 +1,74 @@
+estrutura do Java 
+
+
+JVM (Java Virtual Machine) - é a Máquina Virtual do Java
+responsável por executar o bytecode (.class)
+
+JRE (Java Runtime Environment) - Ambiente de Execução do
+Java que fornece as bibliotecas padrões do Java para o JDK
+compilar o seu código e para a JVM executar o seu programa
+
+JDK - É O QUE O PROGRAMADOR USA 
+JVM - É AS IDE
+JRE - É O QUE EXECUTA O PROGRAMA 
+
+
+__________________________________________________________________________________
+
+
+estrutura do Java 
+
+package [nome dele];
+
+public class [nome da classe] {
+	**coloca as definições:
+	char	caracter
+	int	inteiro
+	float	real de precisão simples
+	double	real de precisao dupla
+	void	vazio (sem valor)**
+
+	public static void main(String[] args) {
+		
+		System.out.println(); *imprime o que foi escrito*
+	}
+} 
+
+
+no Eclipse:
+File - new - Java Project (criou projeto java)
+criar a class - aperta no "SRC" depois clica no "CTRL + N"
+- "class + enter" *colocar nome package, nome da classe
+ e public static void main(String[] args 
+
+*caso esqueca do public static void main(String[] args - é só escrever no código 
+sysout +  ctrl + espaço 
+
+ex Básico: 
+package com.dio;
+
+public class PrimeiroPrograma {
+
+	public static void main(String[] args) {
+		int a = 2;
+		int b = 3 ;
+		System.out.println("Hello word! " + ( a + b ));
+	}
+}
+
+
+
+__________________________________________________________________________________
+
+The Bubug = encontra erros e corrigir no programa 
+	
+Ctrl + D - Apaga linha 
+ctrl 3 - pega as variavais 
+ctrl + Shitf + o - importa o import 
+crtl + alt +seta cima/baixa - duplica o bloco escolhido 
+Crtl + 2 + l = ajuda na criação da variavel 
+F5 - pula a linha na qual o programa fuciona
+F6 - volta no comando 
+crtl + shift + t = encontra a class 
+crtl + w = fecha a aba 
+crtl + shift + w = fecha todas as abas 
